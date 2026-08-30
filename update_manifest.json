@@ -10,41 +10,37 @@
   "windows_numeric_version": "0.1.0.0",
   "schema_version": 7,
   "schema": 7,
-  "build_id": "20260829-214826-3c9212b8",
-  "built_at_utc": "2026-08-30T07:56:05.766281+00:00",
-  "build_time": "2026-08-30T07:56:05.766281+00:00",
+  "build_id": "20260829-221133-c517bca4",
+  "built_at_utc": "2026-08-30T08:19:13.515766+00:00",
+  "build_time": "2026-08-30T08:19:13.515766+00:00",
   "architecture": "Windows x64",
   "installer_technology": "Inno Setup",
   "installer_version": "6.7.3",
   "installer_app_id": "4d3e5972-43c2-4549-9b15-b3e0bf999626",
   "portable_executable": "NexusDashboard.exe",
-  "portable_sha256": "54c3f944998c88407f892a160dc088a4ce58a90519b9d8aced56356d0644b6c8",
+  "portable_sha256": "46a83d7564e0d115f69fa6cd08be1ff8e5d4985391bb444ee4751ea93e01fee5",
   "installer_executable": "NexusDashboard-Setup.exe",
   "installer_filename": "NexusDashboard-Setup.exe",
-  "installer_sha256": "12a4bd4299aa1d063e30ff8d8d50cf1d2916c0208b8e9c272cb98ff604255453",
+  "installer_sha256": "d19e9d378c92a2cb7a49fc0b3bdf4dd9ec48de6bc71e50684560072957eeb92a",
   "minimum_supported_version": "0.1.0-alpha",
   "minimum_supported_schema": 7,
   "maximum_supported_schema": 7,
   "release_notes": {
     "title": "Nexus Dashboard Alpha",
-    "summary": "Alpha updater lifecycle and installer reliability update.",
-    "changes": [
-      "Supports real HTTPS update discovery, verified download, backup, and installer handoff."
-    ],
-    "fixes": [
-      "Update workers now shut down safely during normal close and update-installer handoff."
-    ],
+    "summary": "Alpha updater lifecycle and installer handoff reliability update.",
+    "changes": ["Supports real HTTPS update discovery, verified download, backup, and elevated installer handoff."],
+    "fixes": ["Update workers shut down safely, and Windows installer handoff now requests elevation explicitly."],
     "known_issues": []
   },
   "critical": false,
   "restart_required": true,
   "user_data_policy": "Preserved during upgrade, uninstall, and reinstall",
-  "published_at": "2026-08-30T07:56:05.766281+00:00",
+  "published_at": "2026-08-30T08:19:13.515766+00:00",
   "mandatory": false,
   "installer": {
     "filename": "NexusDashboard-Setup.exe",
-    "url": "https://github.com/Alanok21/NexusDashboard-Releases/releases/download/alpha-20260829-214826-3c9212b8/NexusDashboard-Setup.exe",
-    "sha256": "12a4bd4299aa1d063e30ff8d8d50cf1d2916c0208b8e9c272cb98ff604255453",
-    "size_bytes": 44556875
+    "url": "https://github.com/Alanok21/NexusDashboard-Releases/releases/download/alpha-20260829-221133-c517bca4/NexusDashboard-Setup.exe",
+    "sha256": "d19e9d378c92a2cb7a49fc0b3bdf4dd9ec48de6bc71e50684560072957eeb92a",
+    "size_bytes": 44564338
   }
 }
